@@ -7,6 +7,10 @@ The objective of the puzzle is to move the entire stack of disks available in so
 2.Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
 3.No disk may be placed on top of a smaller disk.
 
-#If  n represents number of disks ,then Hanoi(n)=2n-1
+#The minimal number of moves required to solve a Tower of Hanoi puzzle is 2^n − 1, where n is the number of disks.
+i.e #If  n represents number of disks ,then Hanoi(n)=2^n-1
 
-#With 3 disks, the puzzle can be solved in 7 moves. The minimal number of moves required to solve a Tower of Hanoi puzzle is 2^n − 1, where n is the number of disks.
+#With 3 disks, the puzzle can be solved in 7 moves.
+No. of moves = ((2 * 2 * 2 ) - 1)
+             = (8 -1)
+             = 7
